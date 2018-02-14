@@ -1,0 +1,85 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#container
+{
+	border:none 1px;
+	height: 100%;
+	width: 100%;
+}
+
+#display
+{
+	position: relative;
+	border: none 0px;
+	height: 30%;
+	width: 100%;
+	box-shadow: 0em 15px 10px rgba(0,0,0,0.4);
+	background-color: #a3caff;
+}
+
+#input
+{
+	position: relative;
+	width: 100%;
+	text-align: right;
+	height: 20%;
+	line-height 100%;
+	top:50%;
+	font-weight: 300;
+	font-size: 350%;
+	font-family: monospace;
+	padding: 10px;
+	color: #fff;
+}
+
+#keypad
+{
+	
+	border: solid 0px;
+	height: 70%;
+	width: 100%;
+	overflow: scroll;
+}
+
+button
+{
+	
+	font-family: monospace;
+	display: block;
+	float: left;
+	width: 25%;
+	height: 20%;
+	outline: none;
+	border: none;
+	background-color: 89BBFE;
+	color:aliceblue;
+	font-size: 1.5em;
+}
+#equals
+{
+	
+	font-family: monospace;
+	width: 75%;
+	height: 20%;
+	background-color: #EE4266;
+	color: ;
+}
+
+#operator{
+	
+	font-family: monospace;
+	border: solid 0.01px grey;
+	display: block;
+	float: left;
+	width: 25%;
+	height: 20%;
+	outline: none;
+	background-color:#615D6C ;
+	color: #ACEDFF;
+	font-size: 1.5em;
+	font-weight: 500;
+}
